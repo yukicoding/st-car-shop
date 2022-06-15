@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-此项目是一款基于React+nodejs开发的购车商城，致力于为您提供方便快捷的体验。
+此项目是一款基于React+nodejs+express开发的购车商城，致力于为您提供方便快捷的体验。
 
 
 
@@ -36,7 +36,7 @@
 
 ## Deployment
 
-To deploy this project run
+To deploy this project run below!
 
 
 ```bash
