@@ -118,7 +118,7 @@ productRouter.post(
   })
 );
 
-const PAGE_SIZE = 3;
+const PAGE_SIZE = 6;
 
 productRouter.get(
   '/admin',
@@ -128,7 +128,6 @@ productRouter.get(
     const { query } = req;
     const page = query.page || 1;
     const pageSize = query.pageSize || PAGE_SIZE;
-
     const products = await Product.find()
       .skip(pageSize * (page - 1))
       .limit(pageSize);
